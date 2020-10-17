@@ -36,3 +36,32 @@ body {
 .book h1 {
   margin-top: 2.5rem;
 }
+
+.btn {
+  display: block;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  outline: none;
+  font-family: fantasy;
+  font-size: 1.1rem;
+  background-color: lightgreen;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+}
+
+.cmplx {
+  background-color: lightskyblue;
+  margin-top: 10px;
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+}
