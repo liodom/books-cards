@@ -21,16 +21,29 @@ body {
   gap: 5rem;
 }
 
-@media screen and (min-width: 768px) {
-  .booklist {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 .book {
   background: #fff;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 380px) {
+  .booklist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 767px) {
+  .booklist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .book h1 {
